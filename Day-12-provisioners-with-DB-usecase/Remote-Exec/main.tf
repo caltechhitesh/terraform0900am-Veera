@@ -138,6 +138,7 @@ resource "null_resource" "remote_sql_exec" {
   }
 }
 
+#terraform taint null_resource.remote_sql_exec we can use taint also for alternate to trigger the provisioner every time we want to run the provisioner we can use taint command to taint the resource and then apply to run the provisioner
 
 
 
